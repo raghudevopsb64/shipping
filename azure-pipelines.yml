@@ -11,7 +11,7 @@ pool:
 steps:
   - script: |
       mvn clean package
-      cp target/shipping.jar shipping.jar
+      cp target/shipping-1.0.jar shipping.jar
     displayName: Build Java Package
 
   - script: |
